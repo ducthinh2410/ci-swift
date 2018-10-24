@@ -28,6 +28,6 @@ class Counter {
     }
 
     func reset() {
-        value = initialValue
+        value = initialValueeee
     }
 }
