@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var valueLabel: UILabel!
+
+    let counter = Counter(initialValue: 0)
+
+    @IBAction func increase(_ sender: Any) {
+        counter.increase()
+        updateValueLabel()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func reset(_ sender: Any) {
+        counter.reset()
+        updateValueLabel()
     }
 
+    @IBAction func decrease(_ sender: Any) {
+        counter.decrease()
+        updateValueLabel()
+    }
 
+    fileprivate func updateValueLabel() {
+        valueLabel.text = "\(counter.value)"
+    }
 }
 

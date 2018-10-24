@@ -13,6 +13,7 @@
 		8C8271EE21808A2700FE725C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8271ED21808A2700FE725C /* Assets.xcassets */; };
 		8C8271F121808A2700FE725C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8271EF21808A2700FE725C /* LaunchScreen.storyboard */; };
 		8C8271FC21808A2700FE725C /* CISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8271FB21808A2700FE725C /* CISwiftTests.swift */; };
+		8C827207218090C100FE725C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C827206218090C100FE725C /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8C8271F721808A2700FE725C /* CISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8271FB21808A2700FE725C /* CISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CISwiftTests.swift; sourceTree = "<group>"; };
 		8C8271FD21808A2700FE725C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C827206218090C100FE725C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				8C8271E621808A2600FE725C /* AppDelegate.swift */,
 				8C8271E821808A2600FE725C /* ViewController.swift */,
+				8C827206218090C100FE725C /* Counter.swift */,
 				8C8271EA21808A2600FE725C /* Main.storyboard */,
 				8C8271ED21808A2700FE725C /* Assets.xcassets */,
 				8C8271EF21808A2700FE725C /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				8C8271E921808A2600FE725C /* ViewController.swift in Sources */,
 				8C8271E721808A2600FE725C /* AppDelegate.swift in Sources */,
+				8C827207218090C100FE725C /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
